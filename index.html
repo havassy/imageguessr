@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <title>ImageGuessr – tanórai játék</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <!-- Saját CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+</head>
+<body>
+  <div class="container">
+    <h1>ImageGuessr</h1>
+
+    <div class="top-buttons">
+      <button id="btnNewGame" class="btn btn-primary">Új játék indítása</button>
+      <a href="learn.html" target="_blank" class="btn btn-learn">Tanulás</a>
+    </div>
+
+    <!-- Felső panel: balra kép, jobbra státusz+gombok -->
+    <div id="topPanel" class="top-panel">
+      <!-- Bal: kép (start.jpg induláskor) -->
+      <div id="imageArea" class="image-column">
+        <div class="image-wrapper">
+          <img id="gameImage" src="img/start.jpg" alt="Kezdő kép" />
+        </div>
+      </div>
+
+      <!-- Jobb: kör, infó, gombok -->
+      <div id="sidePanel" class="side-column">
+        <div class="round-label">
+          Kör: <span id="currentRound">0</span> / 5
+        </div>
+
+        <div id="infoPanel" class="info-panel">
+          <p>Kattints az <strong>Új játék indítása</strong> gombra, majd jelöld meg a térképen a képen látott helyet. Az eredmény pontosságától függően bronz, ezüst vagy arany fokozatú igazolást lehet letölteni a játék elvégzéséről.</p>
+        </div>
+
+        <div id="controlsArea" class="controls-row">
+          <button id="btnShowSolution" class="btn btn-success" disabled>Megoldás mutatása</button>
+          <button id="btnNextRound" class="btn btn-warning" disabled>Következő kör</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Térkép alul, teljes szélességben -->
+    <div id="mapArea" class="map-row">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <!-- Eredmény modal (felugró ablak) -->
+  <div id="resultsOverlay" class="results-overlay" style="display:none;">
+    <div class="results-dialog">
+      <h2>Játék vége</h2>
+      <p>Összesített hiba: <span id="totalErrorKm">0</span> km</p>
+
+      <table id="roundTable">
+        <thead>
+          <tr>
+            <th>Kör</th>
+            <th>Hiba (km)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <p id="certificateMessage" class="results-note">
+        <!-- Ide kerül: „Letöltheted…” vagy „Játssz még egy kört…” -->
+      </p>
+
+      <!-- Igazolás blokk – csak akkor látszik, ha jár fokozat -->
+      <div id="certificateArea" class="certificate-area" style="display:none;">
+        <label for="playerName">Írd be a nevedet, ahogy az igazoláson szeretnéd látni:</label>
+        <input
+          type="text"
+          id="playerName"
+          placeholder="Írd be a nevedet!"
+        />
+        <div class="results-buttons">
+          <button id="btnDownloadCert" class="btn btn-primary" disabled>Igazolás letöltése</button>
+          <button id="btnCloseResults" class="btn">Bezárás</button>
+        </div>
+      </div>
+
+      <!-- Ha nincs igazolás, csak a Bezárás gomb -->
+      <div id="noCertButtons" class="results-buttons">
+        <button id="btnCloseResults2" class="btn">Bezárás</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rejtett canvas az igazolás generálásához -->
+  <canvas id="certCanvas" width="800" height="600" style="display:none;"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>

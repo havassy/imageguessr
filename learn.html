@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <title>Fotók áttekintő térképe</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: inherit;
+    }
+
+    /* Fő elrendezés: bal oldali lista + jobb oldali térkép */
+    .container {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    #sidebar {
+      flex: 0 0 280px; /* fix ~280px széles oldalsáv */
+      max-width: 320px;
+      border-right: 1px solid #ddd;
+      overflow-y: auto;
+      padding: 0.5rem;
+      background-color: #fafafa;
+    }
+
+    #map {
+      flex: 1 1 auto;
+      height: 100%;
+      width: 100%;
+    }
+
+    .sidebar-title {
+      font-weight: bold;
+      margin: 0 0 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .list-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.25rem 0.25rem;
+      margin-bottom: 0.25rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.15s ease;
+    }
+
+    .list-item:hover {
+      background-color: #e6f0ff;
+    }
+
+    .list-item img {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .list-title {
+      font-size: 0.85rem;
+      line-height: 1.2;
+    }
+
+    /* Popup-stílusok */
+    .popup-content img {
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .popup-title {
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+    .popup-info {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div id="sidebar">
+    <p class="sidebar-title">Helyszínek (ABC szerint)</p>
+    <!-- Ide kerülnek dinamikusan a listaelemek -->
+  </div>
+  <div id="map"></div>
+</div>
+
+<!-- Leaflet JS -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""
+></script>
+
+<script>
+  // Térkép inicializálása – induló nézet, később fitBounds-szal felülírjuk
+  var map = L.map('map').setView([20, 0], 2);
+
+  // Német (latin betűs) OSM csemperéteg
+  L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> hozzájárulók'
+  }).addTo(map);
+
+  // Bounds az összes pontra
+  var bounds = L.latLngBounds();
+
+  // Marker referenciák (kulcs: image fájlnév)
+  var markersByImage = {};
+
+  var sidebar = document.getElementById('sidebar');
+
+  // places.json betöltése
+  fetch('places.json')
+    .then(function(response) {
+      if (!response.ok) {
+        throw new Error('places.json betöltése nem sikerült');
+      }
+      return response.json();
+    })
+    .then(function(data) {
+      // ABC sorrend a title alapján
+      data.sort(function(a, b) {
+        var t1 = a.title || '';
+        var t2 = b.title || '';
+        return t1.localeCompare(t2, 'en', { sensitivity: 'base' });
+      });
+
+      data.forEach(function(place) {
+        // Marker létrehozása
+        var marker = L.marker([place.lat, place.lng]).addTo(map);
+
+        // Elmentjük, hogy később a lista alapján hivatkozhassunk rá
+        markersByImage[place.image] = marker;
+
+        // Bounds bővítése
+        bounds.extend(marker.getLatLng());
+
+        // Popup HTML
+        var imgSrc = 'img/' + place.image;
+        var popupHtml =
+          '<div class="popup-content">' +
+            '<img src="' + imgSrc + '" alt="' + (place.title || '') + '">' +
+            '<div class="popup-title">' + (place.title || '') + '</div>' +
+            '<div class="popup-info">' + (place.info || '') + '</div>' +
+          '</div>';
+
+        marker.bindPopup(popupHtml);
+
+        // Oldalsó listaelem létrehozása (kiskép + cím)
+        var item = document.createElement('div');
+        item.className = 'list-item';
+
+        item.innerHTML =
+          '<img src="' + imgSrc + '" alt="' + (place.title || '') + '">' +
+          '<div class="list-title">' + (place.title || '') + '</div>';
+
+        // Kattintás: zoom az adott markerre + popup megnyitása
+        item.addEventListener('click', function() {
+          var m = markersByImage[place.image];
+          if (m) {
+            var latlng = m.getLatLng();
+            map.setView(latlng, 6); // tetszőleges zoom-szint
+            m.openPopup();
+          }
+        });
+
+        sidebar.appendChild(item);
+      });
+
+      // Miután minden marker létrejött, ránagyítunk az összes pontra
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds, {
+          padding: [40, 40]
+        });
+      }
+    })
+    .catch(function(error) {
+      console.error(error);
+    });
+</script>
+
+</body>
+</html>
