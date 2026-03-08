@@ -1,0 +1,353 @@
+[
+  {
+    "image": "img001.jpg",
+    "lat": 37.7291,
+    "lng": -119.6284,
+    "title": "Horsetail Fall, Yosemite",
+    "info": "Időszakos vízesés a Yosemite-völgyben, amely februárban naplementekor \"tűzvízesésként\" izzik fel, ha megfelelőek a fényviszonyok."
+  },
+  {
+    "image": "img002.jpg",
+    "lat": -26.5512,
+    "lng": 18.1675,
+    "title": "Kokerboom/Quiver Tree Forest, Keetmanshoop",
+    "info": "Aloe dichotoma fák természetes \"erdeje\" Keetmanshoop közelében, híres a Tejúttal készült asztrofotókról."
+  },
+  {
+    "image": "img003.jpg",
+    "lat": 40.507,
+    "lng": 43.572,
+    "title": "Szent Gergely-templom, Ani romjai",
+    "info": "Középkori örmény templom Ani romvárosában, a mai Kars tartományban; freskóiról és jellegzetes örmény építészetéről ismert."
+  },
+  {
+    "image": "img004.jpg",
+    "lat": -1.50,
+    "lng": 35.10,
+    "title": "Elefántborjú a Masai Mara rezervátumban",
+    "info": "Afrikai elefántborjú játszik az anyjával a kenyai Masai Mara Nemzeti Rezervátum füves szavannáján."
+  },
+  {
+    "image": "img005.jpg",
+    "lat": 36.2298,
+    "lng": -116.7674,
+    "title": "Badwater Basin, Death Valley",
+    "info": "Sómezők a Badwater-medencében, Észak-Amerika legmélyebb pontján, mintegy 86 méterrel a tengerszint alatt."
+  },
+  {
+	"image": "img006.jpg",
+    "lat": 44.6330,
+    "lng": -110.4450,
+    "title": "Magasfüvű gejzírsíkság és bölények, Yellowstone",
+    "info": "Bölények legelnek a geotermikus források és gőzölgő fumarolák közelében a Yellowstone-fennsíkon, ahol a meleg talaj enyhíti a zord téli körülményeket."
+  },
+  {
+    "image": "img007.jpg",
+    "lat": 38.4510,
+    "lng": -111.1927,
+    "title": "Temple of the Sun, Capitol Reef Nemzeti Park, Utah",
+    "info": "Magányos Entrada-homokkő monolit a Capitol Reef Nemzeti Park Cathedral Valley részén, székesegyházra emlékeztető formákkal."
+  },
+  {
+    "image": "img008.jpg",
+    "lat": 37.8789,
+    "lng": -4.7794,
+    "title": "Kordobai nagymecset-katedrális belső tere, Andalúzia",
+    "info": "A Mezquita-katedrális belső tere több száz márványoszloppal és piros-fehér ívekkel, amely az iszlám mecset és a keresztény székesegyház rétegeit egyesíti."
+  },
+  {
+    "image": "img009.jpg",
+    "lat": 27.9330,
+    "lng": 86.7050,
+    "title": "Mount Everest csúcsa naplementében, Renjo La-hágóról",
+    "info": "A Renjo La-hágó felől nyíló panoráma a Mount Everestre és a Himalája vonulatára, naplemente idején aranyszínben derengő hófödte csúcsokkal."
+  },
+  {
+    "image": "img010.jpg",
+    "lat": 36.0566,
+    "lng": -112.1251,
+    "title": "Grand Canyon és a Colorado-folyó, Arizona",
+    "info": "A Grand Canyon egyik ikonikus kilátópontja, ahonnan jól látszik a Colorado-folyó, amely a kanyon hatalmas szurdokát kivájta."
+  },
+  {
+    "image": "img011.jpg",
+    "lat": 26.2241,
+    "lng": 78.1647,
+    "title": "Gwalior-erőd, Madhja Prades, India",
+    "info": "Homokkőplatón álló erődkomplexum Gwalior városa felett, palotákkal és templomokkal; a középkori India egyik legfontosabb erődített központja."
+  },
+  {
+    "image": "img012.jpg",
+    "lat": 46.5896,
+    "lng": 7.9055,
+    "title": "Staubbach-vízesés, Lauterbrunnen, Svájc",
+    "info": "Közel 300 métert zuhanó függőleges vízesés Lauterbrunnen völgyében, a Berni-Alpokban; gyakran finom \"páraként\" szóródik szét a szélben."
+  },
+  {
+    "image": "img013.jpg",
+    "lat": 29.5417,
+    "lng": 103.7682,
+    "title": "Leshani Óriás Buddha, Szecsuan, Kína",
+    "info": "71 méter magas sziklába faragott Buddha-szobor a Minjiang, Dadu és Qingyi folyók találkozásánál, a Tang-dinasztia idején épült."
+  },
+  {
+    "image": "img014.jpg",
+    "lat": 46.0200,
+    "lng": 7.7830,
+    "title": "Matterhorn a Stellisee tükörképében napfelkeltekor",
+    "info": "A Zermatt fölötti Stellisee hegyi tóból nézve a Matterhorn csúcsa napfelkeltekor narancsos fényben ragyog és tükröződik a víztükörben."
+  },
+  {
+    "image": "img015.jpg",
+    "lat": 39.7500,
+    "lng": 2.7000,
+    "title": "Olivás liget a Serra de Tramuntanában, Mallorca",
+    "info": "Teraszosan kialakított olajfaligetek a Serra de Tramuntana hegyoldalain, ahol a szárazkő támfalak és az olívatermesztés évszázadok óta formálja a tájat."
+  },
+  {
+    "image": "img016.jpg",
+    "lat": 21.1607,
+    "lng": -156.8564,
+    "title": "Oloʻupena-vízesés, Molokaʻi, Hawaii",
+    "info": "A Molokaʻi szigete északi partján, hatalmas tengerparti sziklafalról közel 900 métert zuhanó, keskeny zuhatag, a világ egyik legmagasabb vízesése."
+  },
+  {
+    "image": "img017.jpg",
+    "lat": 50.1160,
+    "lng": -5.4772,
+    "title": "St Michael's Mount, Marazion, Cornwall",
+    "info": "Dagálykor szigetté váló, várkastéllyal koronázott gránitszikla Mount's Bay-ben, amelyet apálykor gyalogos gát köt össze Marazion településsel."
+  },
+  {
+    "image": "img018.jpg",
+    "lat": 38.6583,
+    "lng": 34.8536,
+    "title": "Evening over Göreme, Cappadocia, Türkiye",
+    "info": "Göreme a Kappadókia szívében fekvő település, látványos „tündérkémény” sziklaformákkal és sziklába vájt templomokkal a Göreme Nemzeti Park területén."
+  },
+  {
+    "image": "img019.jpg",
+    "lat": 47.5577,
+    "lng": 10.7496,
+    "title": "Neuschwanstein Castle, Bavaria, Germany",
+    "info": "XIX. századi neoromán kastély Bajorországban, II. Lajos király mesepalotája, egy sziklás hegyoldalon Füssen közelében, a bajor Alpok panorámájával."
+  },
+  {
+    "image": "img020.jpg",
+    "lat": 67.9325,
+    "lng": 13.0896,
+    "title": "The fishing village of Reine, Norway",
+    "info": "Reine halászfalu a Lofoten-szigeteken, Moskenesøya szigetén, meredek hegyekkel körülvett fjordparton, jellegzetes piros halászkunyhókkal (rorbu)."
+  },
+  {
+    "image": "img021.jpg",
+    "lat": 38.7363,
+    "lng": -109.5368,
+    "title": "Turret Arch framed by North Window, Arches National Park, Utah",
+    "info": "A Turret Arch sziklaíve az Északi Ablakon keresztül látszik az Arches Nemzeti Parkban, ahol több mint kétezer természetes homokkő boltív található a sivatagi tájban."
+  },
+  {
+    "image": "img022.jpg",
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "title": "Aerial view of Venice, Italy",
+    "info": "Velence lagúnákra épült város az Adriai-tenger partján, csatornákkal és hidakkal tagolt történelmi központtal, amely az UNESCO világörökség része."
+  },
+  {
+    "image": "img023.jpg",
+    "lat": 64.1835,
+    "lng": -51.7216,
+    "title": "Nuuk, Greenland",
+    "info": "Nuuk Grönland fővárosa a Labrador-tenger partján, színes faházaival és háttérben emelkedő hegyekkel a sarkvidéki táj és az inuit kultúra központja."
+  },
+  {
+    "image": "img024.jpg",
+    "lat": 44.5903,
+    "lng": -104.7153,
+    "title": "Devils Tower National Monument, Wyoming",
+    "info": "Látványos, hengeres magmás kőzetoszlop az USA első nemzeti emlékhelyeként, meredek falakkal a prériből kiemelkedve, a lakota hagyományokban szent helyként tisztelve."
+  },
+  {
+    "image": "img025.jpg",
+    "lat": -1.4060,
+    "lng": 35.0120,
+    "title": "Cheetah in Maasai Mara National Reserve, Narok, Kenya",
+    "info": "Gepárd pihen a füves szavannán a Maasai Mara rezervátumban, ahol a ragadozók a gnú- és zebravándorlást követik a kenyai–tanzán határvidéken."
+  },
+  {
+    "image": "img026.jpg",
+    "lat": 14.8400,
+    "lng": -89.1400,
+    "title": "Maya site of Copán, Honduras",
+    "info": "Klasszikus maja város romjai nyugati Hondurasban, híres faragott sztéléiről, hieroglifás lépcsőjéről és a Copán-folyó melletti akropoliszáról."
+  },
+  {
+    "image": "img027.jpg",
+    "lat": -38.7660,
+    "lng": 143.5460,
+    "title": "Koala in a eucalyptus tree, Great Otway National Park, Australia",
+    "info": "Koala szundikál egy eukaliptusz ágai között a Great Otway Nemzeti Park partmenti erdeiben, ahol a hűvös, nedves klíma buja növényzetet tart fenn."
+  },
+  {
+    "image": "img028.jpg",
+    "lat": -42.3300,
+    "lng": -63.7800,
+    "title": "Guanaco in Punta Norte, Argentina",
+    "info": "Guanaco áll a Patagónia Atlanti-partján fekvő Punta Norte félsivatagos tájában, ahol a Valdés-félsziget gazdag tengeri- és szárazföldi vadvilága figyelhető meg."
+  },
+  {
+    "image": "img029.jpg",
+    "lat": 65.8650,
+    "lng": 24.3440,
+    "title": "Aerial view of peatland in Martimoaapa Mire Reserve, Finland",
+    "info": "Légi nézet egy mozaikos tőzegláp-rendszerről a Martimoaapa természetvédelmi területen, Észak-Finnországban, sekély tavakkal és fenyves szigetecskékkel."
+  },
+  {
+    "image": "img030.jpg",
+    "lat": 36.4618,
+    "lng": 25.3753,
+    "title": "Village of Oia, Santorini, Greece",
+    "info": "Oia falucska hófehér házakkal és kék kupolás templomokkal egy vulkáni kaldera peremén, ahonnan híres naplemente nyílik az Égei-tengerre."
+  },
+  {
+    "image": "img031.jpg",
+    "lat": 68.5000,
+    "lng": 25.7300,
+    "title": "Reindeer during winter snowfall, Lapland, Finland",
+    "info": "Rénszarvas áll hóviharban a lappföldi fenyvesekben, ahol a hagyományos számi réntartás és a sarkvidéki tél határozza meg a táj ritmusát."
+  },
+  {
+    "image": "img032.jpg",
+    "lat": -17.7500,
+    "lng": 48.4500,
+    "title": "Black-and-white ruffed lemur in Madagascar",
+    "info": "Fekete-fehér galléros maki kapaszkodik a fákon Madagaszkár keleti esőerdeiben; a faj súlyosan veszélyeztetett az élőhelyek pusztulása miatt."
+  },
+  {
+    "image": "img033.jpg",
+    "lat": 41.9009,
+    "lng": 12.4833,
+    "title": "The Trevi Fountain in Rome, Italy",
+    "info": "Róma legnagyobb barokk szökőkútja a Palazzo Poli homlokzatán, Oceánosz szobrával és szoborcsoportokkal; hagyomány szerint szerencsét hoz, ha érmét dobnak bele."
+  },
+  {
+    "image": "img034.jpg",
+    "lat": 66.0175,
+    "lng": -20.4213,
+    "title": "Basalt columns at Kálfshamarsvík, Skagi Peninsula, Iceland",
+    "info": "Észak-izlandi, az Atlanti-óceánba benyúló öböl, ahol kétmillió éves, hatszögletű bazaltoszlopok alkotnak sziklás partszakaszt és világítótornyot ölelnek körbe."
+  },
+  {
+    "image": "img035.jpg",
+    "lat": 62.0500,
+    "lng": -7.2333,
+    "title": "Sørvágsvatn lake, island of Vágar, Faroe Islands, Denmark",
+    "info": "A Feröer legnagyobb tava a Vágar szigeten, mely meredek sziklafalak peremén, az óceán fölé magasodva fekszik, optikai illúziót keltve a parti kilátópontról nézve."
+  },
+  {
+    "image": "img036.jpg",
+    "lat": 38.2887,
+    "lng": -111.2473,
+    "title": "Petroglyphs near Fruita in Capitol Reef National Park, Utah",
+    "info": "Őslakos fremont indiánok több száz éves sziklarajzai a Capitol Reef Nemzeti Park Fruita települése mellett, egy sziklafalba vájva, pallósétányról megfigyelhetően."
+  },
+  {
+    "image": "img037.jpg",
+    "lat": -25.6952,
+    "lng": -54.4367,
+    "title": "Three Musketeers Falls at Iguazú Falls, Argentina",
+    "info": "Az Iguazú-vízesés argentin oldalának egyik látványos zuhatagcsoportja, a Três Mosqueteiros, ahol a Paraná esőerdővel borított szurdoka fölött több vízfüggöny omlik alá."
+  },
+  {
+    "image": "img038.jpg",
+    "lat": 47.0000,
+    "lng": 105.0000,
+    "title": "Yurts in the grasslands of Mongolia",
+    "info": "Hagyományos mongol jurták állnak a Mongol–Mandzsu pusztavidék hullámzó füves sztyeppéin, ahol nomád pásztorcsaládok követik állataik vándorlását."
+  },
+  {
+    "image": "img039.jpg",
+    "lat": 46.6005,
+    "lng": 11.7261,
+    "title": "Seceda, a peak in the Dolomites, South Tyrol, Italy",
+    "info": "A Puez–Odle Nemzeti Parkban emelkedő, 2518 méteres Seceda-csúcs meredek, fűvel borított gerince a Dolomitok egyik legismertebb fotótémája, panorámával az Odle-hegycsoportra."
+  },
+  {
+    "image": "img040.jpg",
+    "lat": 44.3333,
+    "lng": -76.0000,
+    "title": "Thousand Islands region, St. Lawrence River, US-Canada border",
+    "info": "A Szent Lőrinc-folyó mintegy 1864 szigetből álló vidéke az Ontario-tó kijáratánál, ahol erdős szigetek, nyaralók és kisebb kastélyok sorakoznak az USA–Kanada határvonalán."
+   },
+   {
+    "image": "img041.jpg",
+    "lat": 37.7420,
+    "lng": -119.5330,
+    "title": "Alpenglow on Half Dome, Yosemite National Park, California",
+    "info": "A Yosemite-völgy keleti végében emelkedő, 2694 méteres gránitkupola, amely naplementekor és napkeltekor rózsaszín alpenglow fényben izzik, a park egyik legismertebb látványossága."
+  },
+  {
+    "image": "img042.jpg",
+    "lat": 35.5164,
+    "lng": 138.7650,
+    "title": "Mount Fuji at sunrise, Lake Kawaguchi, Japan",
+    "info": "A Fudzsi-hegy 3776 méteres kúpja a Kawagucsi-tó északi partjáról nézve, ahol derült hajnalokon a hegy visszatükröződik a tó vizén, Japán egyik klasszikus képeslapmotívumaként."
+  },
+  {
+    "image": "img043.jpg",
+    "lat": 27.4910,
+    "lng": 89.3630,
+    "title": "Paro Taktsang, a Buddhist monastery in Bhutan",
+    "info": "A Tigris Fészke kolostor néven ismert buddhista szentély Bhután Paro-völgyének fala fölött, mintegy 3120 méteres magasságban, meredek sziklapárkányra építve, zarándokösvényen közelíthető meg."
+  },
+  {
+    "image": "img044.jpg",
+    "lat": 47.7681,
+    "lng": 2.3770,
+    "title": "Château de Sully-sur-Loire, Center-Val de Loire, France",
+    "info": "A Loire menti Sully-sur-Loire település árkokkal körülvett reneszánsz vára, egykori Sully hercegi rezidencia, tornyokkal és bástyákkal a Loire-völgy kastélyainak keleti kapujánál."
+  },
+  {
+    "image": "img045.jpg",
+    "lat": 11.2760,
+    "lng": 99.5340,
+    "title": "Wat Tang Sai Temple in Ban Krut, Thailand",
+    "info": "A Ban Krut fölötti hegyfokon álló Wat Tang Sai templomegyüttes arany kupolákkal és díszes csedikkel néz a Thai-öbölre, kilátással a hosszú homokos partra és a tengerre."
+  },
+  {
+    "image": "img046.jpg",
+    "lat": -20.2590,
+    "lng": 44.4180,
+    "title": "Baobab trees at sunset, Avenue of the Baobabs, Madagascar",
+    "info": "A Morondava közelében húzódó földút két oldalán sorakozó, akár 30 méter magas majomkenyérfák csoportja, amelyek naplementekor látványos sziluetteket rajzolnak az égboltra."
+  },
+  {
+    "image": "img047.jpg",
+    "lat": 37.6980,
+    "lng": -25.4360,
+    "title": "Vila Franca Islet, São Miguel Island, Azores, Portugal",
+    "info": "A São Miguel szigete déli partján fekvő, vulkáni eredetű, gyűrű alakú szigetecske természetes lagúnával, nyári fürdőhely Vila Franca do Campo település közelében."
+  },
+  {
+    "image": "img048.jpg",
+    "lat": -1.0000,
+    "lng": -76.0000,
+    "title": "Amazon rainforest, Ecuador",
+    "info": "Az ecuadori Amazonas-medence esőerdője, például a Yasuni Nemzeti Park vidéke, rendkívül fajgazdag trópusi erdő őshonos indián közösségekkel és folyóhálózattal."  
+  },
+  {
+    "image": "img049.jpg",
+    "lat": 24.0208,
+    "lng": 32.8894,
+    "title": "Temple of Philae (Temple of Isis), Aswan, Egypt",
+    "info": "Ízisz istennő templomegyüttese az Aszván közelében fekvő Agilkia-szigeten, melyet az eredeti Philae-szigetről költöztettek át a Nasszer-tó építése után; oszlopcsarnokokkal és reliefekkel díszített szent hely."
+  },
+  {
+    "image": "img050.jpg",
+    "lat": 40.0853,
+    "lng": 94.6683,
+    "title": "Crescent Lake near Dunhuang, Gansu province, China",
+    "info": "A Crescentszerűen ívelt Yueja-tó oázisa a Góbi-sivatag homokdűnéi között, mintegy 6 km-re Tunhuang városától, hagyományos pavilonokkal és sivatagi kilátással."
+  }
+
+]
