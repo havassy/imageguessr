@@ -53,7 +53,7 @@
     "lat": 37.8789,
     "lng": -4.7794,
     "title": "Kordobai nagymecset-katedrális belső tere, Andalúzia",
-    "info": "A Mezquita-katedrális belső tere több száz márványoszloppal és piros-fehér ívekkel, amely az iszlám mecset és a keresztény székesegyház rétegeit egyesíti."
+    "info": "A Mezquita-katedrális belső tere több száz márványoszloppal és piros-fehér ívekkel, amely az iszlám mecset és a keresztény székesegyház vonásait egyesíti."
   },
   {
     "image": "img009.jpg",
@@ -81,14 +81,14 @@
     "lat": 46.5896,
     "lng": 7.9055,
     "title": "Staubbach-vízesés, Lauterbrunnen, Svájc",
-    "info": "Közel 300 métert zuhanó függőleges vízesés Lauterbrunnen völgyében, a Berni-Alpokban; gyakran finom \"páraként\" szóródik szét a szélben."
+    "info": "Közel 300 métert zuhanó függőleges vízesés Lauterbrunnen völgyében, a Berni-Alpokban; gyakran finom páraként szóródik szét a szélben."
   },
   {
     "image": "img013.jpg",
     "lat": 29.5417,
     "lng": 103.7682,
     "title": "Leshani Óriás Buddha, Szecsuan, Kína",
-    "info": "71 méter magas sziklába faragott Buddha-szobor a Minjiang, Dadu és Qingyi folyók találkozásánál, a Tang-dinasztia idején épült."
+    "info": "A Tang-dinasztia idején épült71 méter magas sziklába faragott Buddha-szobor a Minjiang, Dadu és Qingyi folyók találkozásánál."
   },
   {
     "image": "img014.jpg",
@@ -137,7 +137,7 @@
     "lat": 67.9325,
     "lng": 13.0896,
     "title": "The fishing village of Reine, Norway",
-    "info": "Reine halászfalu a Lofoten-szigeteken, Moskenesøya szigetén, meredek hegyekkel körülvett fjordparton, jellegzetes piros halászkunyhókkal (rorbu)."
+    "info": "Reine halászfalu a Lofoten-szigeteken, Moskenesøya szigetén, meredek hegyekkel körülvett fjordparton, jellegzetes piros halászkunyhókkal."
   },
   {
     "image": "img021.jpg",
@@ -165,7 +165,7 @@
     "lat": 44.5903,
     "lng": -104.7153,
     "title": "Devils Tower National Monument, Wyoming",
-    "info": "Látványos, hengeres magmás kőzetoszlop az USA első nemzeti emlékhelyeként, meredek falakkal a prériből kiemelkedve, a lakota hagyományokban szent helyként tisztelve."
+    "info": "A lakota hagyományokban szent helyként tisztelt látványos, hengeres magmás kőzetoszlop az USA első nemzeti emlékhelye, meredek falakkal emelkedik ki a Prériből."
   },
   {
     "image": "img025.jpg",
@@ -221,14 +221,14 @@
     "lat": -17.7500,
     "lng": 48.4500,
     "title": "Black-and-white ruffed lemur in Madagascar",
-    "info": "Fekete-fehér galléros maki kapaszkodik a fákon Madagaszkár keleti esőerdeiben; a faj súlyosan veszélyeztetett az élőhelyek pusztulása miatt."
+    "info": "Fekete-fehér galléros maki kapaszkodik a fákon Madagaszkár keleti esőerdeiben. A faj súlyosan veszélyeztetett az élőhelyek pusztulása miatt."
   },
   {
     "image": "img033.jpg",
     "lat": 41.9009,
     "lng": 12.4833,
     "title": "The Trevi Fountain in Rome, Italy",
-    "info": "Róma legnagyobb barokk szökőkútja a Palazzo Poli homlokzatán, Oceánosz szobrával és szoborcsoportokkal; hagyomány szerint szerencsét hoz, ha érmét dobnak bele."
+    "info": "Róma legnagyobb barokk szökőkútja a Palazzo Poli homlokzatán, Oceánosz szobrával és szoborcsoportokkal. A hagyomány szerint szerencsét hoz, ha érmét dobnak bele."
   },
   {
     "image": "img034.jpg",
@@ -249,7 +249,7 @@
     "lat": 38.2887,
     "lng": -111.2473,
     "title": "Petroglyphs near Fruita in Capitol Reef National Park, Utah",
-    "info": "Őslakos fremont indiánok több száz éves sziklarajzai a Capitol Reef Nemzeti Park Fruita települése mellett, egy sziklafalba vájva, pallósétányról megfigyelhetően."
+    "info": "Őslakos fremont indiánok több száz éves sziklarajzai a Capitol Reef Nemzeti Park Fruita települése mellett."
   },
   {
     "image": "img037.jpg",
@@ -277,7 +277,7 @@
     "lat": 44.3333,
     "lng": -76.0000,
     "title": "Thousand Islands region, St. Lawrence River, US-Canada border",
-    "info": "A Szent Lőrinc-folyó mintegy 1864 szigetből álló vidéke az Ontario-tó kijáratánál, ahol erdős szigetek, nyaralók és kisebb kastélyok sorakoznak az USA–Kanada határvonalán."
+    "info": "A Szent Lőrinc-folyó mintegy 1864 szigetből álló vidéke az Ontario-tó kijáratánál, ahol erdős szigetek, nyaralók és kisebb kastélyok sorakoznak az USA–Kanada határvonalon."
    },
    {
     "image": "img041.jpg",
@@ -340,14 +340,14 @@
     "lat": 24.0208,
     "lng": 32.8894,
     "title": "Temple of Philae (Temple of Isis), Aswan, Egypt",
-    "info": "Ízisz istennő templomegyüttese az Aszván közelében fekvő Agilkia-szigeten, melyet az eredeti Philae-szigetről költöztettek át a Nasszer-tó építése után; oszlopcsarnokokkal és reliefekkel díszített szent hely."
+    "info": "Ízisz istennő templomegyüttese az Aszván közelében fekvő Agilkia-szigeten, oszlopcsarnokokkal és reliefekkel díszített szent hely. Philae-szigetről költöztettek át a Nasszer-tó építése után."
   },
   {
     "image": "img050.jpg",
     "lat": 40.0853,
     "lng": 94.6683,
     "title": "Crescent Lake near Dunhuang, Gansu province, China",
-    "info": "A Crescentszerűen ívelt Yueja-tó oázisa a Góbi-sivatag homokdűnéi között, mintegy 6 km-re Tunhuang városától, hagyományos pavilonokkal és sivatagi kilátással."
+    "info": "A holdalakban ívelt Yueja-tó oázisa a Góbi-sivatag homokdűnéi között, mintegy 6 km-re Tunhuang városától, hagyományos pavilonokkal és sivatagi kilátással."
   }
 
 ]
