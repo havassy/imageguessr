@@ -7,11 +7,12 @@ let places = [];
 let selectedPlaces = [];
 let currentRound = 0;          // 0..N_ROUNDS-1
 let currentPlace = null;
-
 let map = null;
 let guessMarker = null;        // aktuális tipp marker (kör közben)
 let solutionMarker = null;     // aktuális kör valódi helye
 let currentLine = null;        // aktuális kör vonala
+let solutionShownThisRound = false;
+
 
 // Játék teljes története: 5 elem, mindegyikben tipp, valódi hely, hiba
 let roundsData = [];           // {place, guessLat, guessLng, errorKm}
@@ -140,6 +141,8 @@ function loadRound() {
     return;
   }
 
+  solutionShownThisRound = false;  // új kör: még nincs megoldás megmutatva
+
   currentPlace = selectedPlaces[currentRound];
   document.getElementById("currentRound").textContent = String(currentRound + 1);
 
@@ -162,9 +165,11 @@ function loadRound() {
   map.setView([40, -10], 3);
 }
 
+
 // Tipp a térképen
 function onMapClick(e) {
-  if (!currentPlace) return; // még nem indult játék
+  if (!currentPlace) return;          // még nem indult játék
+  if (solutionShownThisRound) return; // megoldás után ne engedj új tippet
 
   const latlng = e.latlng;
 
@@ -179,7 +184,6 @@ function onMapClick(e) {
     fillOpacity: 0.9
   }).addTo(map);
 
-  // Eltároljuk a tippet az aktuális körben (hiba még nincs)
   roundsData[currentRound] = {
     place: currentPlace,
     guessLat: latlng.lat,
@@ -189,6 +193,7 @@ function onMapClick(e) {
 
   document.getElementById("btnShowSolution").disabled = false;
 }
+
 
 // Megoldás mutatása az aktuális körre
 function showSolution() {
@@ -235,7 +240,11 @@ function showSolution() {
     [sol.lat, sol.lng]
   );
   map.fitBounds(bounds, { padding: [20, 20] });
+
+  // ÚJ SOR: innentől ebben a körben nincs több tipp
+  solutionShownThisRound = true;
 }
+
 
 // Következő kör / Eredmény
 function nextRound() {
